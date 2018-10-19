@@ -1,0 +1,30 @@
+<mxGraphModel dx="800" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    <UserObject label="$$SERVICE$$" $$SERVICE_LINK$$ id="2">
+      <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=#f0a30a;strokeColor=#f0a30a;fontColor=#0000EE;fontStyle=4;" parent="1" vertex="1">
+        <mxGeometry x="100" y="140" width="300" height="110" as="geometry"/>
+      </mxCell>
+    </UserObject>
+    $$DEP_BLOCK$$
+    <UserObject label="$$DEPENDENCY$$" $$DEP_LINK$$ id="$$DEP_ID$$">
+      <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=#ffcc99;strokeColor=none;fontColor=#0000EE;fontStyle=4;" parent="1" vertex="1">
+        <mxGeometry x="$$DEP_X$$" y="$$DEP_Y$$" width="300" height="110" as="geometry"/>
+      </mxCell>
+    </UserObject>
+    <mxCell id="$$ARROW_ID$$" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#ffe6cc;entryX=0;entryY=0.5;exitX=1;exitY=0.5;strokeColor=#d79b00;edgeStyle=orthogonalEdgeStyle;" parent="1" source="2" target="$$DEP_ID$$" edge="1">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxPoint as="sourcePoint"/>
+        <mxPoint as="targetPoint"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="$$DEP_TYPES_ID$$" value="$$DEP_TYPES$$" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;gradientColor=#ffd966;" parent="1" vertex="1">
+      <mxGeometry x="$$DEP_TYPES_X$$" y="$$DEP_TYPES_Y$$" width="200" height="60" as="geometry"/>
+    </mxCell>
+    $$DEP_BLOCK$$
+    <mxCell id="3" value="$$HEADER$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=48;" parent="1" vertex="1">
+      <mxGeometry x="0" width="1000" height="90" as="geometry"/>
+    </mxCell>
+  </root>
+</mxGraphModel>

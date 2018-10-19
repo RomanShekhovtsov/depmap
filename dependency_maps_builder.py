@@ -236,7 +236,7 @@ Y_MARGIN = 50
 DEP_X = SERVICE_X + SHAPE_WIDTH + X_MARGIN
 
 def id_generator():    
-    id_ = 3  # dependency ids starts from 3
+    id_ = 4  # dependency ids starts from 4
     while True:
         yield str(id_)
         id_ += 1
